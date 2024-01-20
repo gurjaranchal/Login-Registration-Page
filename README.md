@@ -10,56 +10,25 @@ Before running the application, ensure that you have the following installed:
 ```
 
 ## Installation
-
+```
 Clone the repository:
-
-bash
-Copy code
-git clone https://github.com/gurjaranchal/mern-login-registration.git
+git clone https://github.com/gurjaranchal/Login-Registration-Page.git
 Navigate to the project directory:
+1. for frontend - front-end
+2. for backend - back-end
+Install dependencies by using - npm install <packageName>
+```
 
-bash
-Copy code
-cd mern-login-registration
-Install server dependencies:
-
-bash
-Copy code
-cd server
-npm install
-Install client dependencies:
-
-bash
-Copy code
-cd ../client
-npm install
-Configuration
-In the server directory, create a .env file and add the following variables:
-
-makefile
-Copy code
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/mern_auth
-SECRET_KEY=your_secret_key
-PORT: The port on which the server will run.
-MONGODB_URI: The URI of your MongoDB database.
-SECRET_KEY: A secret key for JWT token generation.
-Save the .env file.
-
-Usage
-Start the server:
-
-bash
-Copy code
-cd server
-npm start
-Start the client (in a separate terminal window):
-
-bash
-Copy code
-cd client
+## Usage
+```
+In back-end folder
+Start the server: node server.js
+In front-end folder
 npm start
 Open your browser and navigate to http://localhost:3000 to access the application.
+for browsing login page: http://localhost:3000/login
+for browsing registration page: http://localhost:3000/register
+```
 
 ## Features
 ```
@@ -77,8 +46,8 @@ React
 Node.js
 ```
 
-# Contributing
-Feel free to contribute by submitting bug reports, feature requests, or pull requests.
+## Contributing
+Feel free to contribute by submitting the bug reports, feature requests, or pull requests.
 
 
 ## Acknowledgments
