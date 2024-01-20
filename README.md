@@ -1,19 +1,21 @@
-### MERN Stack Login and Registration Page
-This repository contains a simple Login and Registration Page built using the MERN (MongoDB, Express.js, React, Node.js) stack. The project provides a basic authentication system with user registration, login, and session management functionalities.
-'''
-Prerequisites
+# MERN Stack Login and Registration Page
+This repository contains a simple Login and Registration Page built using the MERN (MongoDB, Express.js, React, Node.js) stack. 
+The project provides a basic authentication system with user registration, login, and session management functionalities.
+
+## Prerequisites
+```
 Before running the application, ensure that you have the following installed:
+1. Node.js and npm
+2. MongoDB (Ensure the MongoDB server is running)
+```
 
-Node.js and npm
-MongoDB (Ensure the MongoDB server is running)
-'''
+## Installation
 
-# Installation
 Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/mern-login-registration.git
+git clone https://github.com/gurjaranchal/mern-login-registration.git
 Navigate to the project directory:
 
 bash
@@ -59,25 +61,27 @@ cd client
 npm start
 Open your browser and navigate to http://localhost:3000 to access the application.
 
-Features
+## Features
+```
 User registration with validation
 User login with authentication
 Session management using JWT tokens
 Responsive and user-friendly interface
-Technologies Used
+```
+
+## Technologies Used
+```
 MongoDB
 Express.js
 React
 Node.js
-JSON Web Tokens (JWT)
-Bootstrap (for styling)
-Contributing
+```
+
+# Contributing
 Feel free to contribute by submitting bug reports, feature requests, or pull requests.
 
-License
-This project is licensed under the MIT License.
 
-Acknowledgments
+## Acknowledgments
 Special thanks to the MERN stack community for their valuable contributions and support.
 
 Happy coding!
